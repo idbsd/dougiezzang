@@ -1,0 +1,51 @@
+body {
+    background-color: ghostwhite;
+    padding: 50px;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 70vw;
+}
+.card {
+    width: 30vw; 
+    border: 20px solid white;
+    height: 40vh;
+    margin: 10px;
+    position:relative;
+}
+
+.small {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background-color: white;
+}
+.card:nth-child(1) {
+    background-color: tomato;
+}
+.card:nth-child(2) {
+    background-color: teal;
+}
+.card:nth-child(3) {
+    background-color: burlywood;
+}
+.card:nth-child(4) {
+    background-color: thistle;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+}

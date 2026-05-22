@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kokoa Challenge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form> 
+      <div>
+        <label for="First Name">First Name</label>
+        <input id="First Name" required placeholder="First name" type="text"></input>
+      </div>
+      <div>
+        <label for="Last Name">Last Name</label>
+        <input id="Last Name" required placeholder="Last Name" type="text"></input>
+      </div>
+      <div>
+        <label for="Email">Email</label>
+        <input id="Email" required placeholder="Email" type="email"></input>
+      </div>
+      <div>
+        <label for="Username">Username</label>
+        <input id="Username" required placeholder="Username" type="text"></input>
+      </div>
+      <div>
+        <label for="Password">Password</label>
+        <input id="Password" required placeholder="Password" type="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%]).+" title="대문자, 소문자, 숫자, 특수문자를 포함해주세요"></input>
+      </div>
+      <div>
+        <label for="Birth date">Birth date</label>
+        <input id="Birth date" required placeholder="Birth Date" type="date"></input>
+      </div>
+      <div>
+        <label>How happy are you?</label>
+        <input type="range"></input>
+      </div>
+      <div>
+        <label>What is your fav.color?</label>
+        <input type="color"></input>
+      </div>
+      <div>
+        <input type="submit" value="Create Account"></input>
+      </div>
+    </form>
+  </body>
+</html>
