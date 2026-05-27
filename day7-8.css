@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+
+    gap: 60px;
+    padding: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.tyler {
+    flex: 1;
+    max-width: 420px;
+    min-width: 320px;
+
+    border: none;
+    border-radius: 50px;
+    
+    box-shadow: 1px 1px 8px 1px #BABABA;
+}
+.tyler__btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px 40px 40px;
+}
+.tyler__info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    
+    box-shadow: 1px 1px 8px 1px #BABABA;
+}
+.tyler__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tyler__title { 
+    font-family: "Nunito", sans-serif;
+    font-size: xx-large;
+}
+.tyler__subtitle {
+    font-family: "Nunito", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+}
+.tyler__middle__btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.mid__btn1 {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;    
+    margin: 50px 0px;
+    
+    box-shadow: 1px 1px 8px 1px #BABABA;
+}
+.mid__btn2 {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;    
+    margin: 50px 0px;
+    
+    box-shadow: 1px 1px 8px 1px #BABABA;
+}
+.song__img {
+    width: 70px;
+    height: 75px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.song{
+    display: flex;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.song:nth-child(2){
+    
+    box-shadow: 1px 1px 8px 1px #BABABA;
+}
+.song__icon {
+    padding-top: 20px;    
+    font-size: 25px;
+    margin-left: auto;
+}
+.song__artist {
+    font-family: "Nunito", sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    padding-top: 10px;
+}
+.song__title {
+    font-family: "Nunito", sans-serif;
+    color: black;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+.player {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 90px;
+}
+.player__info__artist {
+    font-family: "Nunito", sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5px;    
+}
+.player__info__title {
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.player__btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 25px;    
+    color: white;
+}
+.player__btn svg{
+    margin: 0px 10px;
+}
+.playing {
+    flex: 1;
+    max-width: 420px;
+    min-width: 320px;
+    
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 1px 1px 8px 1px #BABABA;
+}
+.playing__btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px 80px 40px;
+}
+.playing__info {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.playing__img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10%;
+    box-shadow: 3px 5px 8px 1px #BC8D14;
+}
+.playing__title {
+    font-family: "Nunito", sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+    margin: 40px 0px 15px 0px;
+}
+.playing__artist {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 50px;
+}
+.playing__run {
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+.playing__time {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px; 
+    margin-top: 25px;
+}
+.playing__bar {
+    position: relative;
+    width: 100%; 
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 999px;
+}
+.bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45% ;
+    height: 100%;
+    background: black;
+    border-radius: 999px;
+}
+.thumb {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    width: 14px;
+    height: 14px;
+    background: black;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+.control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+    font-size: 25px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.control svg:first-child, 
+.control svg:last-child {
+    color: rgb(190, 190, 188);
+}
+.control__play {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    color: white; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
